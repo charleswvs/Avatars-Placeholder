@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  avatar-api:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./images:/app/images
+      - ./static:/app/static
+    restart: unless-stopped

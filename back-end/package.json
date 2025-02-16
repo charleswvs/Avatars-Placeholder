@@ -1,12 +1,14 @@
 {
-  "name": "topten",
+  "name": "avatar-placeholders-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Avatar Placeholders api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server",
-    "watch": "tsc -w"
+    "dev": "nodemon server",
+    "start": "node ./server.js",
+    "watch": "tsc -w",
+    "build": "tsc"
   },
   "author": "mhs",
   "license": "ISC",
@@ -26,6 +28,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
-    "@types/node": "^18.15.11"
+    "@types/node": "^18.19.76",
+    "typescript": "^5.7.3"
   }
 }
