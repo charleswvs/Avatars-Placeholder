@@ -6,8 +6,6 @@
   },
   "deploy": {
     "startCommand": "npm run start",
-    "healthcheckPath": "/public/boy",
-    "healthcheckTimeout": 3000,
     "restartPolicyType": "never"
   }
 }
