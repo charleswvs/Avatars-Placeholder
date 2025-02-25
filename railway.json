@@ -3,7 +3,7 @@
   "build": {
     "builder": "docker",
     "buildCommand": "npm run build",
-    "dockerfile": "Dockerfile"
+    "dockerfile": "back-end/Dockerfile"
   },
   "deploy": {
     "preDeployCommand": [
