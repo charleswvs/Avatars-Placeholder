@@ -1,3 +1,0 @@
-# Aavatar Placeholder #
-
-### Back End ###
